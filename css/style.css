@@ -1,0 +1,48 @@
+html{
+    background-image: url(/images/Dreamland.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: 7em; 
+}
+
+body{
+    width: 60%;
+    margin: auto;
+    padding: 4em;
+    background-color: rgb(8, 28, 41); 
+    color: white;
+    margin-top: 3em;
+}
+
+header{
+    background-image: linear-gradient(black, rgb(32, 32, 57));
+    padding: 1px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    box-shadow: 0px 20px 90px #0000007d;
+    text-align: center;
+    left: 0;
+    font-size: 30px;
+}
+
+h3 a{
+    text-decoration: none;
+    color: white;
+}
+
+h3{
+    text-shadow: 0px 0px 20px #44c93d7d;
+}
+
+#bot{
+    float: left;
+}
+
+#elfoPic{
+    float: right;
+    width: 30%;
+    margin-right: 4em;
+}
